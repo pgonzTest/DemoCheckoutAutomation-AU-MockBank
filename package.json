@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cypress": "^12.17.4"
+  },
+  "name": "democheckouttest-au-mockbank",
+  "description": "Automated Hosted Checkout Testing for AU Region using Mock Bank AU",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --browser chrome",
+    "cy:run:headed": "cypress run --browser chrome --headed"
+  },
+  
+  "author": "pgonzTest",
+  "license": "ISC"
+}

@@ -1,0 +1,48 @@
+{
+	"data": {
+	  "scenarios":[
+		{
+			"checkoutType": "Australian Checkout",
+			"customerOption": "New customer",
+			"region": "AU",
+			"bank": "Mock Bank",
+			"name": "John Smith",
+			"bsb": "111-114",
+			"accountNumber": "12345678",
+			"agreementMessage": "Your agreement is ready",
+			"paymentMessage": "Payment complete"
+		},
+		{
+			"checkoutType": "Australian Checkout",
+			"customerOption": "New customer",
+			"region": "AU",
+			"bank": "Mock Bank",
+			"name": "John Smith",
+			"bsb": "111-114",
+			"accountNumber": "050511",
+			"agreementMessage": "Your agreement is ready",
+			"paymentMessage": "Payment complete"
+		},
+		{
+			"checkoutType": "Agreement expired",
+			"customerOption": "New customer",
+			"region": "AU",
+			"bank": "Mock Bank",
+			"name": "John Smith",
+			"bsb": "111-114",
+			"accountNumber": "010112",
+			"paymentMessage": "Payment Expired"
+		},
+		{
+			"checkoutType": "Insufficient Funds",
+			"customerOption": "New customer",
+			"region": "AU",
+			"bank": "Mock Bank",
+			"name": "John Smith",
+			"bsb": "111-114",
+			"accountNumber": "010112",
+			"paymentMessage": "Insufficient funds"
+		}
+		]
+	}
+}
